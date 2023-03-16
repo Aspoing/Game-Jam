@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour, IDamageable
+public class DamageableCharacter : MonoBehaviour, IDamageable
 {
-
     Animator animator;
     Rigidbody2D rb;
-    // Collider2D collider;
+    Collider2D physicsCollider;
+
+    bool isAlive = true;
 
     public float Health {
         get { return health; }
@@ -19,6 +20,7 @@ public class Enemy : MonoBehaviour, IDamageable
             health = value;
 
             if (health <= 0) {
+                animator.SetBool("isAlive", false);
                 Defeated();
                 Targetable = false;
             }
@@ -28,10 +30,10 @@ public class Enemy : MonoBehaviour, IDamageable
     public bool Targetable {
         set {
             targetable = value;
-            rb.simulated = value;
+            // rb.simulated = value;
+            physicsCollider.enabled = value;
         }
         get { return targetable; }
-
     }
 
     public float health = 2;
@@ -40,7 +42,10 @@ public class Enemy : MonoBehaviour, IDamageable
     // Start is called before the first frame update
     void Start() {
         animator = GetComponent<Animator>();
+
+        animator.SetBool("isAlive", isAlive);
         rb = GetComponent<Rigidbody2D>();
+        physicsCollider = GetComponent<Collider2D>();
     }
 
     // void OnHit(float damage) {
@@ -65,7 +70,7 @@ public class Enemy : MonoBehaviour, IDamageable
         animator.SetTrigger("Defeated");
     }
 
-    public void RemoveEnemy() {
+    public void OnObjectDestroyed() {
         Destroy(gameObject);
     }
 }

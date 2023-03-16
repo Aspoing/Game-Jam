@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_Mass
-      value: 5
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_BodyType
@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_LinearDrag
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_GravityScale
@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: health
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7461913039324665087, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
+      propertyPath: health
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2625139994160063158, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
@@ -103,4 +107,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0305b069dcb444ca68de788b8e7c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 14
+  damage: 1
