@@ -7,21 +7,20 @@ public class SwordAttack : MonoBehaviour
 
     public Collider2D swordCollider;
     public float damage = 3;
+    public float knockbackForce = 5000f;
     Vector2 rightAttackOffset;
 
     // Start is called before the first frame update
     private void Start() {
-        rightAttackOffset = transform.position;
+        rightAttackOffset = transform.localPosition;
     }
 
     public void AttackRight() {
-        print("Attack right");
         swordCollider.enabled = true;
         transform.localPosition = rightAttackOffset;
     }
     
     public void AttackLeft() {
-        print("Attack left");
         swordCollider.enabled = true;
         transform.localPosition = new Vector2(-rightAttackOffset.x, rightAttackOffset.y);
     }
@@ -31,12 +30,27 @@ public class SwordAttack : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == "Enemy") {
-            Enemy enemy = other.GetComponent<Enemy>();
 
-            if (enemy != null) {
-                enemy.Health -= damage;
-            }
+        IDamageable damageableObject = other.GetComponent<IDamageable>();
+
+        if (damageableObject != null) {
+            Vector3 parentPosition = gameObject.GetComponentInParent<Transform>().position;
+
+            Vector2 direction = (Vector2) (other.gameObject.transform.position - parentPosition).normalized;
+            Vector2 knockback = direction * knockbackForce;
+
+            // other.SendMessage("OnHit", damage, knockback);
+            damageableObject.OnHit(damage, knockback);
+        } else {
+            Debug.LogWarning("Collider doesn't implement IDamageable");
         }
+
+        // if (other.tag == "Enemy") {
+        //     Enemy enemy = other.GetComponent<Enemy>();
+
+        //     if (enemy != null) {
+        //         enemy.Health -= damage;
+        //     }
+        // }
     }
 }

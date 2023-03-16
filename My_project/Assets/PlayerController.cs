@@ -5,12 +5,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 1f;
-    public float collisionOffset = 0.05f;
-    public ContactFilter2D movementFilter;
-    public SwordAttack swordAttack;
+    // public float moveSpeed = 150f;
+    // public float maxSpeed = 8f;
+    // public float idleFriction = 0.9f;
+   public float moveSpeed = 1f;
+   public float collisionOffset = 0.05f;
+   public ContactFilter2D movementFilter;
+   public SwordAttack swordAttack;
 
-    Vector2 movementInput;
+    Vector2 movementInput = Vector2.zero;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     Animator animator;
@@ -26,7 +29,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        if (canMove) {
+       if (canMove) {
             if (movementInput != Vector2.zero) {
                 bool success = TryMove(movementInput);
 
@@ -38,6 +41,7 @@ public class PlayerController : MonoBehaviour
                 animator.SetBool("isMoving", success);
             } else {
                 animator.SetBool("isMoving", false);   
+                // rb.velocity = Vector2.ClampMagnitude(rb.velocity + (movementInput * moveSpeed * Time.deltaTime), maxSpeed)
             }
 
             if (movementInput.x < 0) {
@@ -65,16 +69,17 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
-    void OnMove(InputValue movementValue) {
-        movementInput = movementValue.Get<Vector2>();
+    void OnMove(InputValue value) {
+        movementInput = value.Get<Vector2>();
     }
+
+    // void UpdateAnimatorParame
 
     void OnFire() {
         animator.SetTrigger("swordAttack");
     }
 
     public void SwordAttack() {
-        LockMovement();
         if (spriteRenderer.flipX == true)
             swordAttack.AttackLeft();
         else
@@ -82,15 +87,6 @@ public class PlayerController : MonoBehaviour
     }
 
     public void EndSwordAttack() {
-        UnlockMovement();
         swordAttack.StopAttack();
-    }
-
-    public void LockMovement() {
-        canMove = false;
-    }
-
-    public void UnlockMovement() {
-        canMove = true;
     }
 }
