@@ -14,6 +14,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
             if (health <= 0) {
                 Targetable = false;
+                
             }
         }
     }
@@ -31,11 +32,12 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public bool targetable = true;
 
     public void OnHit(float damage, Vector2 knockback) {
-
+        Debug.Log("touch and knowkback");
     }
 
     public void OnHit(float damage) {
-
+        Debug.Log("touch");
+        Health -= damage;
     }
 
     public void OnObjectDestroyed() {

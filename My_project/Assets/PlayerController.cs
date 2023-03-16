@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     Animator animator;
-    List<RaycastHit2D> castCollisison = new List<RaycastHit2D>();
+    // List<RaycastHit2D> castCollisison = new List<RaycastHit2D>();
 
     bool canMove = true;
 
@@ -53,20 +53,21 @@ public class PlayerController : MonoBehaviour
     }
 
     private bool TryMove(Vector2 direction) {
-        if (direction == Vector2.zero)
-            return false;
-        int count = rb.Cast(
-            direction,
-            movementFilter,
-            castCollisison,
-            moveSpeed * Time.fixedDeltaTime + collisionOffset
-        );
-        
+        // if (direction == Vector2.zero)
+        //     return false;
+        // int count = rb.Cast(
+        //     direction,
+        //     movementFilter,
+        //     castCollisison,
+        //     moveSpeed * Time.fixedDeltaTime + collisionOffset
+        // );
+        int count = 0;
         if (count == 0) {
             rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
             return true;
         }
-        return false;
+        // return false;
+        return true;
     }
 
     void OnMove(InputValue value) {

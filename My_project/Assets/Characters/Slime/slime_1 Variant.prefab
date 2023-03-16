@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_Mass
-      value: 40
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_BodyType
@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_LinearDrag
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -1868022697545095498, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
       propertyPath: m_GravityScale
