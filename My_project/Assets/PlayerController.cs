@@ -45,24 +45,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private bool TryMove(Vector2 direction) {
-        // if (direction == Vector2.zero)
-        //     return false;
-        // int count = rb.Cast(
-        //     direction,
-        //     movementFilter,
-        //     castCollisison,
-        //     moveSpeed * Time.fixedDeltaTime + collisionOffset
-        // );
-        int count = 0;
-        if (count == 0) {
-            rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
-            return true;
-        }
-        // return false;
-        return true;
-    }
-
     void OnMove(InputValue value) {
         movementInput = value.Get<Vector2>();
     }
@@ -76,13 +58,19 @@ public class PlayerController : MonoBehaviour
         //     GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
         // else
         GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
-        if (spriteRenderer.flipX == true)
-            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(-1.0f, 0.0f);
+        if (movementInput.x == 0 && movementInput.y == 0)
+            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(spriteRenderer.flipX == true ? -2.0f : 2.0f, 0.0f);
         else
-            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(1.0f, 0.0f);
+            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(
+                movementInput.x > 0 ? 2.0f : (movementInput.x < 0 ? -2.0f : 0.05f),
+                movementInput.y > 0 ? 2.0f : (movementInput.y < 0 ? -2.0f : 0.05f));
         ParasiteAttack parasiteScript = parasite.GetComponent<ParasiteAttack>();
         parasiteScript.player = gameObject;
         Destroy(parasite, 2.0f);
+    }
+
+    void OnResize() {
+
     }
 
     public void SwordAttack() {

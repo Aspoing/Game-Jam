@@ -11,11 +11,6 @@ public class ParasiteAttack : MonoBehaviour
     public GameObject player;
     public string target = "Enemy";
 
-    // Start is called before the first frame update
-    // private void Start() {
-    //     rightAttackOffset = transform.localPosition;
-    // }
-
     void FixedUpdate() {
         Vector2 currentPosition = new Vector2(transform.position.x, transform.position.y);
         Vector2 newPosition = currentPosition + velocity * Time.deltaTime;
@@ -38,17 +33,4 @@ public class ParasiteAttack : MonoBehaviour
         }
         transform.position = newPosition;
     }
-
-    // public void AttackRight() {
-    //     velocity = rightAttackOffset;
-    // }
-    
-    // public void AttackLeft() {
-    //     transform.localPosition = new Vector2(-rightAttackOffset.x, rightAttackOffset.y);
-    // }
-    
-    // public void StopAttack() {
-    //     parasiteCollider.enabled = false;
-    // }
-
 }

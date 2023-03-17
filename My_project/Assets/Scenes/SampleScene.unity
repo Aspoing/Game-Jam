@@ -4227,7 +4227,7 @@ GameObject:
   - component: {fileID: 1699905648}
   m_Layer: 0
   m_Name: Ground Collision Object
-  m_TagString: Untagged
+  m_TagString: DecorCollision
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
