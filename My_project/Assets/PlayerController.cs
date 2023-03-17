@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
     Animator animator;
-    // List<RaycastHit2D> castCollisison = new List<RaycastHit2D>();
 
     bool canMove = true;
 
@@ -54,9 +53,6 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnParasite() {
-        // if (spriteRenderer.flipX == true)
-        //     GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
-        // else
         GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
         if (movementInput.x == 0 && movementInput.y == 0)
             parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(spriteRenderer.flipX == true ? -2.0f : 2.0f, 0.0f);

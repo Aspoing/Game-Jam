@@ -6,7 +6,7 @@ public class ParasiteAttack : MonoBehaviour
 {
     public float damage = 5;
     public float knockbackForce = 30f;
-    // Vector2 rightAttackOffset;
+
     public Vector2 velocity = new Vector2(0.0f, 0.0f);
     public GameObject player;
     public string target = "Enemy";

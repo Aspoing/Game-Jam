@@ -50,10 +50,6 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         physicsCollider = GetComponent<Collider2D>();
     }
 
-    // void OnHit(float damage) {
-    //     Health -= damage;
-    // }
-
     public void OnHit(float damage, Vector2 knockback) {
         Health -= damage;
         rb.AddForce(knockback, ForceMode2D.Impulse);

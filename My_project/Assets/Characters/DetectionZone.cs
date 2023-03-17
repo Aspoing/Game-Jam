@@ -8,12 +8,6 @@ public class DetectionZone : MonoBehaviour
     public List<Collider2D> detectObjs = new List<Collider2D>();
     public Collider2D collider;
 
-    // Start is called before the first frame update
-    // void Start()
-    // {
-    //     collider.GetComponent<Collider2D>();
-    // }
-
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == tagTarget) {
            detectObjs.Add(other);

@@ -36,15 +36,10 @@ public class Enemy : MonoBehaviour
         IDamageable damageable = collider.GetComponent<IDamageable>();
 
         if (damageable != null) {
-            // damageable.OnHit(damage);
-            // Vector3 parentPosition = transform.parent.position;
-
             Vector2 direction = (Vector2) (collider.transform.position - transform.position).normalized;
             Vector2 knockback = direction * knockbackForce;
 
-            // other.SendMessage("OnHit", damage, knockback);
             damageable.OnHit(damage, knockback);
-
         }
     }
 }

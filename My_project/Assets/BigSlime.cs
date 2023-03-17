@@ -11,9 +11,7 @@ public class BigSlime : MonoBehaviour
             if (value < health) {
                 animator.SetTrigger("hit");
             }
-
             health = value;
-
             if (health <= 0) {
                 animator.SetTrigger("Defeated");
             }
