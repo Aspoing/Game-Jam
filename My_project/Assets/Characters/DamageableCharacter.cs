@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DamageableCharacter : MonoBehaviour, IDamageable
 {
+    public bool disableSumulation = false;
     Animator animator;
     Rigidbody2D rb;
     Collider2D physicsCollider;
@@ -17,6 +18,7 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
                 Hit();
             }
 
+            Debug.Log("Est ce que tu entres ici ?");
             health = value;
 
             if (health <= 0) {
@@ -30,7 +32,8 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
     public bool Targetable {
         set {
             targetable = value;
-            // rb.simulated = value;
+            if (disableSumulation)
+                rb.simulated = false;
             physicsCollider.enabled = value;
         }
         get { return targetable; }
@@ -54,7 +57,7 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
 
     public void OnHit(float damage, Vector2 knockback) {
         Health -= damage;
-        rb.AddForce(knockback);
+        rb.AddForce(knockback, ForceMode2D.Impulse);
         Debug.Log("Force : " + knockback);
     }
 

@@ -7,7 +7,7 @@ public class SwordAttack : MonoBehaviour
 
     public Collider2D swordCollider;
     public float damage = 3;
-    public float knockbackForce = 5000f;
+    public float knockbackForce = 50f;
     Vector2 rightAttackOffset;
 
     // Start is called before the first frame update
@@ -42,8 +42,6 @@ public class SwordAttack : MonoBehaviour
 
             // other.SendMessage("OnHit", damage, knockback);
             damageableObject.OnHit(damage, knockback);
-        } else {
-            Debug.LogWarning("Collider doesn't implement IDamageable");
         }
 
         // if (other.tag == "Enemy") {
