@@ -224,6 +224,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   swordAttack: {fileID: 8073390176129690776}
+  parasiteAttack: {fileID: 6120789923987307381, guid: 4613cfe8cd8d74e4a9e610d2d49d21e3, type: 3}
 --- !u!50 &2136477309784301197
 Rigidbody2D:
   serializedVersion: 4

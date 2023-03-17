@@ -18,7 +18,6 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
                 Hit();
             }
 
-            Debug.Log("Est ce que tu entres ici ?");
             health = value;
 
             if (health <= 0) {
@@ -58,7 +57,6 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
     public void OnHit(float damage, Vector2 knockback) {
         Health -= damage;
         rb.AddForce(knockback, ForceMode2D.Impulse);
-        Debug.Log("Force : " + knockback);
     }
 
     public void OnHit(float damage) {

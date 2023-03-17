@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
    public ContactFilter2D movementFilter;
    public SwordAttack swordAttack;
 
+   public GameObject parasiteAttack;
+
     Vector2 movementInput = Vector2.zero;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
@@ -31,24 +33,15 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate() {
        if (canMove) {
             if (movementInput != Vector2.zero) {
-                bool success = TryMove(movementInput);
-
-                if (!success && movementInput.x > 0)
-                    success = TryMove(new Vector2(movementInput.x, 0));
-                if (!success && movementInput.y > 0)
-                    success = TryMove(new Vector2(0, movementInput.y));
-
-                animator.SetBool("isMoving", success);
-            } else {
+                rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
+                animator.SetBool("isMoving", true);
+            } else
                 animator.SetBool("isMoving", false);   
-                // rb.velocity = Vector2.ClampMagnitude(rb.velocity + (movementInput * moveSpeed * Time.deltaTime), maxSpeed)
-            }
 
-            if (movementInput.x < 0) {
+            if (movementInput.x < 0)
                 spriteRenderer.flipX = true;
-            } else if (movementInput.x > 0) {
+            else if (movementInput.x > 0)
                 spriteRenderer.flipX = false;
-            }
         }
     }
 
@@ -74,10 +67,22 @@ public class PlayerController : MonoBehaviour
         movementInput = value.Get<Vector2>();
     }
 
-    // void UpdateAnimatorParame
-
     void OnFire() {
         animator.SetTrigger("swordAttack");
+    }
+
+    void OnParasite() {
+        // if (spriteRenderer.flipX == true)
+        //     GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
+        // else
+        GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
+        if (spriteRenderer.flipX == true)
+            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(-1.0f, 0.0f);
+        else
+            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(1.0f, 0.0f);
+        ParasiteAttack parasiteScript = parasite.GetComponent<ParasiteAttack>();
+        parasiteScript.player = gameObject;
+        Destroy(parasite, 2.0f);
     }
 
     public void SwordAttack() {
