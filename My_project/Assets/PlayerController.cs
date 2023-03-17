@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
    public ContactFilter2D movementFilter;
    public SwordAttack swordAttack;
 
+   public float cooldownTime = 2;
+   private float nextParasiteTime = 0;
+
    public GameObject parasiteAttack;
 
     Vector2 movementInput = Vector2.zero;
@@ -53,16 +56,19 @@ public class PlayerController : MonoBehaviour
     }
 
     void OnParasite() {
-        GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
-        if (movementInput.x == 0 && movementInput.y == 0)
-            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(spriteRenderer.flipX == true ? -2.0f : 2.0f, 0.0f);
-        else
-            parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(
-                movementInput.x > 0 ? 2.0f : (movementInput.x < 0 ? -2.0f : 0.05f),
-                movementInput.y > 0 ? 2.0f : (movementInput.y < 0 ? -2.0f : 0.05f));
-        ParasiteAttack parasiteScript = parasite.GetComponent<ParasiteAttack>();
-        parasiteScript.player = gameObject;
-        Destroy(parasite, 2.0f);
+        if (Time.time > nextParasiteTime) {
+            nextParasiteTime = Time.time + cooldownTime;
+            GameObject parasite = Instantiate(parasiteAttack, transform.position, Quaternion.identity);
+            if (movementInput.x == 0 && movementInput.y == 0)
+                parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(spriteRenderer.flipX == true ? -2.0f : 2.0f, 0.0f);
+            else
+                parasite.GetComponent<Rigidbody2D>().velocity = new Vector2(
+                    movementInput.x > 0 ? 2.0f : (movementInput.x < 0 ? -2.0f : 0.05f),
+                    movementInput.y > 0 ? 2.0f : (movementInput.y < 0 ? -2.0f : 0.05f));
+            ParasiteAttack parasiteScript = parasite.GetComponent<ParasiteAttack>();
+            parasiteScript.player = gameObject;
+            Destroy(parasite, 2.0f);
+        }
     }
 
     void OnResize() {
