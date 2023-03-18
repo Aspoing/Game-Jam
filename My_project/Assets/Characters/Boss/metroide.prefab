@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1182129185206086329}
   - component: {fileID: 3489176711467538145}
   - component: {fileID: 3596913190622399757}
-  - component: {fileID: 8219392653418517217}
   - component: {fileID: 2681152817233028926}
   - component: {fileID: 3598783628633367720}
+  - component: {fileID: 6207860857331347924}
   m_Layer: 0
   m_Name: metroide
   m_TagString: Enemy
@@ -132,22 +132,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8219392653418517217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5706826514418067594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd0305b069dcb444ca68de788b8e7c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  knockbackForce: 50
-  moveSpeed: 9000
-  detectionZone: {fileID: 7494963912452824371}
 --- !u!58 &2681152817233028926
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -179,6 +163,22 @@ MonoBehaviour:
   disableSumulation: 0
   health: 100
   targetable: 1
+--- !u!114 &6207860857331347924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5706826514418067594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94c454c0c41f4f36b496b1d8965265a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  knockbackForce: 50
+  moveSpeed: 9000
+  detectionZone: {fileID: 7494963912452824371}
 --- !u!1 &7002167629099425285
 GameObject:
   m_ObjectHideFlags: 0
