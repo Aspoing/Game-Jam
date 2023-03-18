@@ -161,7 +161,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableSumulation: 0
+  healthBar: {fileID: 0}
   health: 100
+  maxHealth: 100
   targetable: 1
 --- !u!114 &6207860857331347924
 MonoBehaviour:

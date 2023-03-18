@@ -9,13 +9,15 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
     Rigidbody2D rb;
     Collider2D physicsCollider;
 
+    public HealthBar healthBar;
+
     bool isAlive = true;
 
     public float Health {
         get { return health; }
         set {
             if (value < health) {
-                Hit();
+                Hit(health);
             }
 
             health = value;
@@ -39,12 +41,14 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
     }
 
     public float health = 2;
+    public float maxHealth = 2;
     public bool targetable = true;
 
     // Start is called before the first frame update
     void Start() {
         animator = GetComponent<Animator>();
 
+        health = maxHealth;
         animator.SetBool("isAlive", isAlive);
         rb = GetComponent<Rigidbody2D>();
         physicsCollider = GetComponent<Collider2D>();
@@ -59,8 +63,10 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         Health -= damage;
     }
 
-    public void Hit() {
+    public void Hit(float health) {
         animator.SetTrigger("hit");
+        if (transform.gameObject.tag == "Player")
+            healthBar.setHealth(health);
     }
 
     public void Defeated() {

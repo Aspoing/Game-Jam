@@ -36,7 +36,6 @@ public class MetroidScript : MonoBehaviour
         if (damageableCharacter.Targetable && detectionZone.detectObjs.Count > 0) {
             Vector2 direction = (detectionZone.detectObjs[0].transform.position - transform.position).normalized;
             rb.AddForce(direction * moveSpeed * Time.deltaTime);
-            Debug.Log(direction * moveSpeed * Time.deltaTime);
             // rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
 
             if (Time.time > nextParasiteTime) {

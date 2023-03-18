@@ -148,7 +148,6 @@ MonoBehaviour:
   knockbackForce: 50
   moveSpeed: 3500
   detectionZone: {fileID: 4502488075137248612}
-  rb: {fileID: 0}
 --- !u!58 &8307495014461986665
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -178,7 +177,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableSumulation: 0
+  healthBar: {fileID: 0}
   health: 5
+  maxHealth: 5
   targetable: 1
 --- !u!1 &3986752915839020626
 GameObject:

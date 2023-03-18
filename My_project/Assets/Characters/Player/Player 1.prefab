@@ -226,6 +226,7 @@ MonoBehaviour:
   swordAttack: {fileID: 8073390176129690776}
   cooldownTime: 2
   parasiteAttack: {fileID: 6120789923987307381, guid: 4613cfe8cd8d74e4a9e610d2d49d21e3, type: 3}
+  manaBar: {fileID: 0}
 --- !u!50 &2136477309784301197
 Rigidbody2D:
   serializedVersion: 4
@@ -297,5 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableSumulation: 1
-  health: 5
+  healthBar: {fileID: 0}
+  health: 9
+  maxHealth: 9
   targetable: 1

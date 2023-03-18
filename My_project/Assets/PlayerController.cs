@@ -5,19 +5,18 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    // public float moveSpeed = 150f;
-    // public float maxSpeed = 8f;
-    // public float idleFriction = 0.9f;
-   public float moveSpeed = 1f;
-   public float collisionOffset = 0.05f;
-   public ContactFilter2D movementFilter;
-   public SwordAttack swordAttack;
+    public float moveSpeed = 1f;
+    public float collisionOffset = 0.05f;
+    public ContactFilter2D movementFilter;
+    public SwordAttack swordAttack;
 
-   public float cooldownTime = 1;
-   private float nextParasiteTime = 0;
+    public float cooldownTime = 1;
+    private float nextParasiteTime = 0;
 
-   public GameObject parasiteAttack;
+    public GameObject parasiteAttack;
+    public CooldownBar manaBar;
 
+    IDamageable ownDamageable;
     Vector2 movementInput = Vector2.zero;
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
@@ -33,7 +32,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void FixedUpdate() {
-       if (canMove) {
+        if (canMove) {
             if (movementInput != Vector2.zero) {
                 rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
                 animator.SetBool("isMoving", true);
@@ -44,6 +43,11 @@ public class PlayerController : MonoBehaviour
                 spriteRenderer.flipX = true;
             else if (movementInput.x > 0)
                 spriteRenderer.flipX = false;
+        }
+        if (Time.time <= nextParasiteTime) {
+            manaBar.setMana(21 - (nextParasiteTime - Time.time) * 10);
+        } else {
+            manaBar.setMana(21);
         }
     }
 
@@ -67,13 +71,14 @@ public class PlayerController : MonoBehaviour
                     movementInput.y > 0 ? 2.0f : (movementInput.y < 0 ? -2.0f : 0.05f));
             ParasiteAttack parasiteScript = parasite.GetComponent<ParasiteAttack>();
             parasiteScript.player = gameObject;
+            manaBar.setMana(0);
             Destroy(parasite, 2.0f);
         }
     }
 
-    void OnResize() {
+    // void OnResize() {
 
-    }
+    // }
 
     public void SwordAttack() {
         if (spriteRenderer.flipX == true)

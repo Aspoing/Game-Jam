@@ -91,6 +91,10 @@ PrefabInstance:
       propertyPath: health
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 7461913039324665087, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
+      propertyPath: maxHealth
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2625139994160063158, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 020583f047cb84c09aa25a0ba39d4445, type: 3}
@@ -126,4 +130,3 @@ MonoBehaviour:
   knockbackForce: 65
   moveSpeed: 11000
   detectionZone: {fileID: 6009362892713930655}
-  rb: {fileID: 0}
