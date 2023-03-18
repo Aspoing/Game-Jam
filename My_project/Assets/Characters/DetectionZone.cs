@@ -10,6 +10,7 @@ public class DetectionZone : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == tagTarget) {
+        Debug.Log("Collider  player found");
            detectObjs.Add(other);
         }
     }

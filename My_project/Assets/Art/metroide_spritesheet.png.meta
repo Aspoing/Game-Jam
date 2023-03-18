@@ -1,0 +1,2819 @@
+fileFormatVersion: 2
+guid: 93601c1643c5942c0a9fff80a50294c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: metroide_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3046907eead4e59a589a0c5639ca77
+      internalID: 1516075091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db5ad692b0045eca95107740afdbe4
+      internalID: -1922322169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4eb88658742427f89151f22ed55c53
+      internalID: -1757225465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c895b44ab65412bacc0deeadec64ed
+      internalID: -1105221140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57364d7e96654919971042775b0aeec
+      internalID: 1127846806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8e051a7fca74f3d8748f6690134aae
+      internalID: -367036928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7987327c384174f4d89e3315487d40fc
+      internalID: 450953541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3374c52a7f76c4f958b387bf954787b5
+      internalID: 289464952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 524.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f42a6cbce9af448e87796406e9ece2f
+      internalID: 1753188996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e3e00337e8422899f04509a22822b
+      internalID: 489713322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f79557909f24d5580d6809bfaee352
+      internalID: 2108723639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43104822b929a4e62aac35f68ceda2e2
+      internalID: 482848405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368ac035c9bc24797a4918a8c286fefc
+      internalID: -2044648140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72760717f56064645adacfb483345b89
+      internalID: -123865339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f7f9ba81276483eb83d531ab39316f
+      internalID: 208351970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662b8c36c192648e5a84cf39b675768f
+      internalID: 151872904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c98f7011b0e640ddbb14c1d6dc493a5
+      internalID: 307869518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 490.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c507972e355249ba993ab91c71eb28c
+      internalID: -2050984828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a0c95adc0ac433ab37071b3ab56151
+      internalID: -1575685351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cf6d8eba027484c8c929c192aa15fe
+      internalID: 1518883488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7e6a6ad5a23480180e0a37c77aaead
+      internalID: 1947895175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7751a27a567d448ea9d4e375cf4eca2f
+      internalID: -665767968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562203ae7e28349a6a1ec523df349da5
+      internalID: -727049995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3db31e9e2ac144139203b924b2fb82c
+      internalID: 1415688194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf71846414e4b38ae7c0ba634d19aa
+      internalID: -1631176920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb337e868d8440f29b1725cd865effc
+      internalID: -445527992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 456.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e20b961e87a4cfbbf53e2e58289d5e
+      internalID: 1348058392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a6844babc2f44688b647e0759228f2
+      internalID: 1296420858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193159cb1aed04a8cbe951f295ef3320
+      internalID: 1419795817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf190f46a6614d7a9f96ef587b7a897
+      internalID: -900436286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7cb0b0d01f34b36a946afaf561558c
+      internalID: 1304337658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea44ed7c5aa6145999c762c0b5320f40
+      internalID: 752704301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782e3d50423354fef8318980fb8005c9
+      internalID: 1632029683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d576a8232481b45bebd19b06ebe1da81
+      internalID: -1503045837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6c083055e0147b2b91e17c114cd505
+      internalID: -1720510277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 422.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457d7417c78114f5984a199e8a5e66ca
+      internalID: 679895349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304a1981c9d764f358cf70eec6faf676
+      internalID: 997879006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 388.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f56675d81bc94c869f7415e4ed75dbd
+      internalID: -2063179353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 388.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc020a23afa93414b835155ad817cd3a
+      internalID: 366288127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 388.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5da8042b8434f74ba71eec03c9bddd
+      internalID: 402674057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 388.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4724c72d25bb47d2ad9bf4a5db738c7
+      internalID: -810010575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 388.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79301f27e1a654dd5b0212b9a8e24f80
+      internalID: -1617664194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667c1190603234ea1a2d61716f5f5e82
+      internalID: -218393117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 354.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eafac7f1bd14fddb1d1acabfa92c34
+      internalID: 1045601709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 354.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71d806841dbd488ca1327b3d8265547
+      internalID: 440613079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 354.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf8601c5490c48c1b59f44da2e468d3
+      internalID: -1303727298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 354.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e25b0e3d55694861a2b0ff9f7609fae
+      internalID: -982886174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 354.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89faa6043d15942b08e999e863aaad3f
+      internalID: -2010959851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98fdf668bfae4da9b4f0095ad47a219
+      internalID: 1346645568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaac6c01006144d291c21bf83d7943a
+      internalID: -1724544288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294f357051aed4edc9e899e27ee83ece
+      internalID: -1791824700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769b8652e033a436e9143f5ccde6314d
+      internalID: -32838593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd6d800154ad41d3b232b105349884d
+      internalID: -492880623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548a7042c1c4d4913a44a3e798a72b7c
+      internalID: 4123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36233477863249be92b6af861740e83
+      internalID: -334891595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 286.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5f15d62b3a04283a44d9fc9e78609b
+      internalID: -940536130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 286.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4249467e281154f5f9850074b6306f69
+      internalID: -1162076890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 286.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736e88eae003c40d5bf5dc17994dc24f
+      internalID: -2120743747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 286.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049b368e92f874bc8893e4eb15248146
+      internalID: -191199640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 286.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2019440f3544201a5fc1e39a97f2d1
+      internalID: -637258803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54676b62e7ee4e789672a85deee39ad
+      internalID: -1571166816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 252.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb44dc63a9514b91b0deae499d0892c
+      internalID: 672243454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9023c063b7ce4d04af25d603c9a548d
+      internalID: 1575140027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 252.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b636df40cd342548597bd5984a8dcf
+      internalID: -734841250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f8bffaafef4c7a8f1f3681c5cb590
+      internalID: 943204210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 252.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68993da93e29a4e07a20210ffac11cba
+      internalID: 919149369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883bbaccc2f384579a8ac2850ca77594
+      internalID: 1261931513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 218.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751597362de2848aa9a0c83676ae15d4
+      internalID: -1848774636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 218.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96a02f7a9e84ec1aa260f2735849f7
+      internalID: 498792983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 218.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38e3d7f9f34a4f959c9df2c7f1f4558
+      internalID: -1517494500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 218.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab3fd42720ea4912915a9201a968cd2
+      internalID: -1049269414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 218.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58151e24fd23a4259bba077c0abf8fce
+      internalID: -1058980205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77543d6995df74c94aeb23841c0d8dd0
+      internalID: 1396121719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 184.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a929d730736e54f31ab0f3b5660c1569
+      internalID: -1264836378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 184.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b837b903d654c45b2b8feaa423f705ec
+      internalID: 1439733786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ccd297b18954f83b9511f6e9e0a46e
+      internalID: 1082967408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca47a69e041ec4319ad0e8df1b2aca38
+      internalID: -1314377200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 184.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3141e6af6c95c4365bc68f09ddd7b9ba
+      internalID: -1388398091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f4cae0c47624799bff4ecfe660a627
+      internalID: -1411412881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a3db31717f403eab416553d57db16
+      internalID: -655710510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d3a04619e334a398f3e8aa26c4f5fc
+      internalID: -668794977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a87c9d940ff4fe89b6cec294e6a619
+      internalID: -1751469121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e73b4b17eff5404395a9497025e273c
+      internalID: -717541298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362378f155a194f95bb3eeabd0a953be
+      internalID: 1291425566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cdb4a7368804fd7bea5b92e56b3dae
+      internalID: -1063112970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 150.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a43ad50540f402e895df0306ff06c4
+      internalID: -342868451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fd2f686c0b54a0f82bff6773dd43a2
+      internalID: -1159041272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b9d2604e3b9463097c2fb80a40fcd1
+      internalID: 460876162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224a6d86380443c58cbb67aea820b72
+      internalID: 1938614385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd111a6d97de47bf8efcb2436189bc0
+      internalID: 1278811895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc42824488cf84f0bb85aa490c89db3d
+      internalID: 516947486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556af6fa4f2e44af69ebcde77374412c
+      internalID: 1498444348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86606d739f4ae48c0afe03b68282d4cf
+      internalID: -536697711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f486af021e63948729736b0a47ff264c
+      internalID: -351534532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 116.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31416f4ab18904a3ab300410ffdce3e7
+      internalID: -106415119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c627c466c8df74c26b84cdb54e8fa681
+      internalID: -932888790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42025b8bd0edf4e13af4f4da6ba62f5d
+      internalID: -1287072168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238c14774861241eba0f39f7d420e4c0
+      internalID: 852929204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d872c8aabce54496841f319b0f4bec5
+      internalID: -670003142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3248191f181894146a1f90106185964a
+      internalID: -929602658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c2eef5df054b87baf4979f8b51685
+      internalID: 2026129418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a2e66a446154a6b9b487768ce83cbd
+      internalID: -1722657410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4752aeaeef10e4532affa03f09fc0f5c
+      internalID: -1302409824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 82.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2b7fc9a03e84c6a99d70e7e3a5a02a
+      internalID: -475901938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e790022d6078d473fa075bc625cde9e8
+      internalID: 1260329425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d66e4debd0544f51b598b794e046c8e
+      internalID: -1430641549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85368e1cf89904a5385f91d9c0bbd802
+      internalID: 118235620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659c7157d9af44a4f8cf643991b57dc6
+      internalID: 1634929361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb6c9d662e25410ca89598531e7c136
+      internalID: -479819614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38e9a1d654a84d128df5d9f9d6e5c10
+      internalID: 431670023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c9d0b7032a340bfaca16f97fa28c7f
+      internalID: 2049416056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14c8884ea594712a9bc9a487cbfea5
+      internalID: -1728025920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f929eac85e54190aa77fef59d549ce
+      internalID: 1224613329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5346c2fa40628431e8305fa3e2d60aa9
+      internalID: 1059678237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1227834f18c7a4a16b85277f292dd757
+      internalID: 2028617744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f30e8cc80d54383a58eaf59a1ee587
+      internalID: -378199571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fc1c48cf5fb42589eb3ed91424e1c1
+      internalID: 113788006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b45da3ce0b904f778c552c0e3638352
+      internalID: -247752592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1228882f8a93d403fb529323a68b4bfd
+      internalID: -1790997364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2295be79e9a964e70bf351c3f4e041ac
+      internalID: 2131355227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288de1dab849a49e2b95262d5cdce87d
+      internalID: -713576090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metroide_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 14.0625
+        width: 48.666668
+        height: 34.9375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737331d2ec55442e0bde668413d6153d
+      internalID: -1865682292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      metroide_spritesheet_0: 1516075091
+      metroide_spritesheet_1: -1922322169
+      metroide_spritesheet_10: 2108723639
+      metroide_spritesheet_100: 2026129418
+      metroide_spritesheet_101: -1722657410
+      metroide_spritesheet_102: -1302409824
+      metroide_spritesheet_103: -475901938
+      metroide_spritesheet_104: 1260329425
+      metroide_spritesheet_105: -1430641549
+      metroide_spritesheet_106: 118235620
+      metroide_spritesheet_107: 1634929361
+      metroide_spritesheet_108: -479819614
+      metroide_spritesheet_109: 431670023
+      metroide_spritesheet_11: 482848405
+      metroide_spritesheet_110: 2049416056
+      metroide_spritesheet_111: -1728025920
+      metroide_spritesheet_112: 1224613329
+      metroide_spritesheet_113: 1059678237
+      metroide_spritesheet_114: 2028617744
+      metroide_spritesheet_115: -378199571
+      metroide_spritesheet_116: 113788006
+      metroide_spritesheet_117: -247752592
+      metroide_spritesheet_118: -1790997364
+      metroide_spritesheet_119: 2131355227
+      metroide_spritesheet_12: -2044648140
+      metroide_spritesheet_120: -713576090
+      metroide_spritesheet_121: -1865682292
+      metroide_spritesheet_13: -123865339
+      metroide_spritesheet_14: 208351970
+      metroide_spritesheet_15: 151872904
+      metroide_spritesheet_16: 307869518
+      metroide_spritesheet_17: -2050984828
+      metroide_spritesheet_18: -1575685351
+      metroide_spritesheet_19: 1518883488
+      metroide_spritesheet_2: -1757225465
+      metroide_spritesheet_20: 1947895175
+      metroide_spritesheet_21: -665767968
+      metroide_spritesheet_22: -727049995
+      metroide_spritesheet_23: 1415688194
+      metroide_spritesheet_24: -1631176920
+      metroide_spritesheet_25: -445527992
+      metroide_spritesheet_26: 1348058392
+      metroide_spritesheet_27: 1296420858
+      metroide_spritesheet_28: 1419795817
+      metroide_spritesheet_29: -900436286
+      metroide_spritesheet_3: -1105221140
+      metroide_spritesheet_30: 1304337658
+      metroide_spritesheet_31: 752704301
+      metroide_spritesheet_32: 1632029683
+      metroide_spritesheet_33: -1503045837
+      metroide_spritesheet_34: -1720510277
+      metroide_spritesheet_35: 679895349
+      metroide_spritesheet_36: 997879006
+      metroide_spritesheet_37: -2063179353
+      metroide_spritesheet_38: 366288127
+      metroide_spritesheet_39: 402674057
+      metroide_spritesheet_4: 1127846806
+      metroide_spritesheet_40: -810010575
+      metroide_spritesheet_41: -1617664194
+      metroide_spritesheet_42: -218393117
+      metroide_spritesheet_43: 1045601709
+      metroide_spritesheet_44: 440613079
+      metroide_spritesheet_45: -1303727298
+      metroide_spritesheet_46: -982886174
+      metroide_spritesheet_47: -2010959851
+      metroide_spritesheet_48: 1346645568
+      metroide_spritesheet_49: -1724544288
+      metroide_spritesheet_5: -367036928
+      metroide_spritesheet_50: -1791824700
+      metroide_spritesheet_51: -32838593
+      metroide_spritesheet_52: -492880623
+      metroide_spritesheet_53: 4123
+      metroide_spritesheet_54: -334891595
+      metroide_spritesheet_55: -940536130
+      metroide_spritesheet_56: -1162076890
+      metroide_spritesheet_57: -2120743747
+      metroide_spritesheet_58: -191199640
+      metroide_spritesheet_59: -637258803
+      metroide_spritesheet_6: 450953541
+      metroide_spritesheet_60: -1571166816
+      metroide_spritesheet_61: 672243454
+      metroide_spritesheet_62: 1575140027
+      metroide_spritesheet_63: -734841250
+      metroide_spritesheet_64: 943204210
+      metroide_spritesheet_65: 919149369
+      metroide_spritesheet_66: 1261931513
+      metroide_spritesheet_67: -1848774636
+      metroide_spritesheet_68: 498792983
+      metroide_spritesheet_69: -1517494500
+      metroide_spritesheet_7: 289464952
+      metroide_spritesheet_70: -1049269414
+      metroide_spritesheet_71: -1058980205
+      metroide_spritesheet_72: 1396121719
+      metroide_spritesheet_73: -1264836378
+      metroide_spritesheet_74: 1439733786
+      metroide_spritesheet_75: 1082967408
+      metroide_spritesheet_76: -1314377200
+      metroide_spritesheet_77: -1388398091
+      metroide_spritesheet_78: -1411412881
+      metroide_spritesheet_79: -655710510
+      metroide_spritesheet_8: 1753188996
+      metroide_spritesheet_80: -668794977
+      metroide_spritesheet_81: -1751469121
+      metroide_spritesheet_82: -717541298
+      metroide_spritesheet_83: 1291425566
+      metroide_spritesheet_84: -1063112970
+      metroide_spritesheet_85: -342868451
+      metroide_spritesheet_86: -1159041272
+      metroide_spritesheet_87: 460876162
+      metroide_spritesheet_88: 1938614385
+      metroide_spritesheet_89: 1278811895
+      metroide_spritesheet_9: 489713322
+      metroide_spritesheet_90: 516947486
+      metroide_spritesheet_91: 1498444348
+      metroide_spritesheet_92: -536697711
+      metroide_spritesheet_93: -351534532
+      metroide_spritesheet_94: -106415119
+      metroide_spritesheet_95: -932888790
+      metroide_spritesheet_96: -1287072168
+      metroide_spritesheet_97: 852929204
+      metroide_spritesheet_98: -670003142
+      metroide_spritesheet_99: -929602658
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
