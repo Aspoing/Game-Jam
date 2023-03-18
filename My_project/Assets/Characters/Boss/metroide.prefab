@@ -178,6 +178,8 @@ MonoBehaviour:
   damage: 1
   knockbackForce: 50
   moveSpeed: 9000
+  cooldownTime: 6
+  parasiteAttack: {fileID: 6120789923987307381, guid: 4613cfe8cd8d74e4a9e610d2d49d21e3, type: 3}
   detectionZone: {fileID: 7494963912452824371}
 --- !u!1 &7002167629099425285
 GameObject:

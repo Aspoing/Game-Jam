@@ -10,6 +10,7 @@ public class ParasiteAttack : MonoBehaviour
     public Vector2 velocity = new Vector2(0.0f, 0.0f);
     public GameObject player;
     public string target = "Enemy";
+    public string target_two = "EnemyImmuneSword";
 
     void FixedUpdate() {
         Vector2 currentPosition = new Vector2(transform.position.x, transform.position.y);
@@ -25,7 +26,7 @@ public class ParasiteAttack : MonoBehaviour
                 Vector2 direction = (Vector2) (hit.collider.transform.position - transform.position).normalized;
                 Vector2 knockback = direction * knockbackForce;
 
-                if (other.gameObject.tag == target || other.gameObject.tag == "DecorCollision") {
+                if (other.gameObject.tag == target || other.gameObject.tag == target_two) {
                     damageableObject.OnHit(damage);
                     Destroy(gameObject);
                 }

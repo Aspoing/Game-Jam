@@ -8,6 +8,7 @@ TagManager:
   - EnemyAggro
   - PlayerWeapon
   - DecorCollision
+  - EnemyImmuneSword
   layers:
   - Default
   - TransparentFX

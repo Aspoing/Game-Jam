@@ -33,7 +33,7 @@ public class SwordAttack : MonoBehaviour
 
         IDamageable damageableObject = other.GetComponent<IDamageable>();
 
-        if (damageableObject != null) {
+        if (damageableObject != null && other.gameObject.tag == "Enemy") {
             Vector3 parentPosition = transform.parent.position;
 
             Vector2 direction = (Vector2) (other.transform.position - parentPosition).normalized;

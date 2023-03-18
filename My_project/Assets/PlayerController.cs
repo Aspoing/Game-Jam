@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
    public ContactFilter2D movementFilter;
    public SwordAttack swordAttack;
 
-   public float cooldownTime = 2;
+   public float cooldownTime = 1;
    private float nextParasiteTime = 0;
 
    public GameObject parasiteAttack;
