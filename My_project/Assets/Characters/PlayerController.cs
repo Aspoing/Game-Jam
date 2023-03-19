@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
     public SwordAttack swordAttack;
+    public GameObject interactNotification;
 
     public float cooldownTime = 1;
     private float nextParasiteTime = 0;
@@ -89,5 +90,13 @@ public class PlayerController : MonoBehaviour
 
     public void EndSwordAttack() {
         swordAttack.StopAttack();
+    }
+
+    public void notifyPlayer() {
+        interactNotification.SetActive(true);
+    }
+
+    public void denotifyPlayer() {
+        interactNotification.SetActive(false);
     }
 }

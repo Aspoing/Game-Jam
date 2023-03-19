@@ -17,7 +17,6 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         get { return health; }
         set {
             if (value == maxHealth) {
-                Debug.Log("est ce que tu m'entends he ho ? " + animator.GetBool("isAlive"));
                 animator.SetBool("isAlive", true);
                 Targetable = true;
             }

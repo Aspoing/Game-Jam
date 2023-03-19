@@ -8,18 +8,26 @@ public class Interactable : MonoBehaviour
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent InteractAction;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-
-    void FixedUpdate() {
+    void Update() {
         if (isInRange) {
             if (Input.GetKeyDown(interactKey)) {
                 InteractAction.Invoke();
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.tag == "Player") {
+            isInRange = true;
+            other.gameObject.GetComponent<PlayerController>().notifyPlayer();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        if (other.gameObject.tag == "Player") {
+            isInRange = false;
+            other.gameObject.GetComponent<PlayerController>().denotifyPlayer();
         }
     }
 }

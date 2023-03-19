@@ -13,20 +13,28 @@ public class Dialogue : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
+        gameObject.SetActive(false);
         textComponent.text = string.Empty;
         startDialogue();
     }
 
-    void FixedUpdate() {
-        if (Input.GetMouseButtonDown(0))
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.A)) {
             nextLine();
+            Debug.Log("A is pressed");
+        }
         else {
             StopAllCoroutines();
             textComponent.text = lines[index];
         }
     }
 
-    void startDialogue() {
+    public void setNewText(string[] newLines) {
+        lines = newLines;
+    }
+
+    public void startDialogue() {
+        gameObject.SetActive(true);
         index = 0;
         StartCoroutine(Typeline());
     }
