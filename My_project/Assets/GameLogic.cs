@@ -9,7 +9,9 @@ public class GameLogic : MonoBehaviour
     public void spawnPlayer(GameObject player) {
         GameObject spawnPoint = respawnOnNearest();
         player.transform.position = spawnPoint.transform.position;
-        Debug.Log("Player has respawned");
+        DamageableCharacter damageableCharacter = player.GetComponent<DamageableCharacter>();
+        damageableCharacter.healthBar.setHealth(10);
+        damageableCharacter.Health = 9;
     }
 
     GameObject respawnOnNearest() {

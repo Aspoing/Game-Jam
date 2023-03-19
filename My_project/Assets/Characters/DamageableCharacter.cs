@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DamageableCharacter : MonoBehaviour, IDamageable
 {
-    public bool disableSumulation = false;
-    Animator animator;
+    public bool disableSimulation = false;
+    public Animator animator;
     Rigidbody2D rb;
     Collider2D physicsCollider;
 
@@ -16,6 +16,11 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
     public float Health {
         get { return health; }
         set {
+            if (value == maxHealth) {
+                Debug.Log("est ce que tu m'entends he ho ? " + animator.GetBool("isAlive"));
+                animator.SetBool("isAlive", true);
+                Targetable = true;
+            }
             if (value < health) {
                 Hit(health);
             }
@@ -35,8 +40,10 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
     public bool Targetable {
         set {
             targetable = value;
-            if (disableSumulation)
+            if (disableSimulation)
                 rb.simulated = false;
+            else
+                rb.simulated = true;
             physicsCollider.enabled = value;
         }
         get { return targetable; }
