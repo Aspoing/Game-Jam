@@ -26,6 +26,8 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
                 animator.SetBool("isAlive", false);
                 Defeated();
                 Targetable = false;
+                if (transform.gameObject.tag == "Player")
+                    GameObject.Find("GameLogic").GetComponent<GameLogic>().spawnPlayer(transform.gameObject);
             }
         }
     }
