@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 1239708762739866111}
   - component: {fileID: 5731826913054120108}
   - component: {fileID: 8034498382776984820}
-  - component: {fileID: 3313919385722069236}
   - component: {fileID: 8852124436547999019}
   - component: {fileID: 7934564822700988093}
   - component: {fileID: 689955594404187818}
+  - component: {fileID: 2671408794708986376}
   m_Layer: 0
   m_Name: human transform 1_0
   m_TagString: Enemy
@@ -111,22 +111,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3313919385722069236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1215679931722406559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd0305b069dcb444ca68de788b8e7c78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  knockbackForce: 50
-  moveSpeed: 3500
-  detectionZone: {fileID: 4030506134540824358}
 --- !u!58 &8852124436547999019
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -140,9 +124,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0020488352, y: -0.019805431}
+  m_Offset: {x: 0.037654985, y: -0.068332404}
   serializedVersion: 2
-  m_Radius: 0.068485186
+  m_Radius: 0.20965447
 --- !u!114 &7934564822700988093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,8 +142,8 @@ MonoBehaviour:
   disableSimulation: 0
   animator: {fileID: 0}
   healthBar: {fileID: 0}
-  health: 5
-  maxHealth: 5
+  health: 20
+  maxHealth: 20
   targetable: 1
 --- !u!95 &689955594404187818
 Animator:
@@ -182,6 +166,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2671408794708986376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215679931722406559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7b68034290e49f7b8fbcd615e70fd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 2
+  knockbackForce: 50
+  moveSpeed: 10000
+  cooldownTime: 6
+  runningTime: 4
+  detectionZone: {fileID: 4030506134540824358}
 --- !u!1 &4521891456716909584
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +232,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 3
 --- !u!114 &4030506134540824358
 MonoBehaviour:
   m_ObjectHideFlags: 0

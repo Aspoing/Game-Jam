@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8073390176129690776}
   m_Layer: 0
   m_Name: SwordHitbox
-  m_TagString: Untagged
+  m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,7 +297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea32981f433c4a62bdb8b77b87b18f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  disableSumulation: 1
+  disableSimulation: 0
+  animator: {fileID: 0}
   healthBar: {fileID: 0}
   health: 9
   maxHealth: 9
